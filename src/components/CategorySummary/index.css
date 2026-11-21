@@ -1,0 +1,43 @@
+.category-section {
+  overflow: hidden;
+  border: 1px solid #cbbaff;
+  border-radius: 13px;
+  background: #fff;
+}
+
+.category-section h2 {
+  padding: 14px 20px;
+  color: #4710a5;
+  background: #faf9ff;
+  font-size: 23px;
+}
+
+.category-section table {
+  inline-size: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.category-section th {
+  padding: 14px 10px;
+  color: #39108d;
+  background: #e9e1ff;
+  font-size: 16px;
+}
+
+.category-section td {
+  padding: 12px 10px;
+  border-block-end: 1px solid #e4dcff;
+  font-size: 16px;
+}
+
+.category-icon {
+  margin-inline-end: 12px;
+  font-size: 20px;
+}
+
+@media (max-width: 600px) {
+  .category-section h2 {
+    font-size: 20px;
+  }
+}

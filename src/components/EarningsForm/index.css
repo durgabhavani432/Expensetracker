@@ -1,0 +1,43 @@
+.earnings-form {
+  margin-block-end: 20px;
+  padding: 20px;
+  border: 1px solid #cbbaff;
+  border-radius: 12px;
+  background: #eee7ff;
+}
+
+.earnings-form h2 {
+  margin-block-end: 15px;
+  color: #4815a5;
+}
+
+.earnings-form input {
+  margin-inline-end: 10px;
+  margin-block-end: 10px;
+  padding: 12px;
+  border: 1px solid #c7b5ff;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.earnings-form button {
+  margin-inline-end: 8px;
+  padding: 12px 18px;
+  border: 0;
+  border-radius: 8px;
+  color: black;
+  background: #6932b6;
+  cursor: pointer;
+}
+
+.earnings-form button:hover {
+  background: #51218f;
+}
+
+@media (max-width: 600px) {
+  .earnings-form input,
+  .earnings-form button {
+    inline-size: 100%;
+    margin-inline-end: 0;
+  }
+}

@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #faf9ff;
+  color: #160d3b;
+}
+
+.app {
+  inline-size: 100%;
+  max-inline-size: 1600px;
+  margin-inline: auto;
+  padding: 15px;
+}
+
+input,
+select,
+button {
+  font-family: inherit;
+}
+
+input:focus,
+select:focus {
+  outline: 2px solid #a57ae8;
+  outline-offset: 1px;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Expenses table and category summary layout */
+.bottom-section {
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(260px, 1.1fr);
+  gap: 20px;
+  align-items: start;
+}
+
+@media (max-width: 1000px) {
+  .bottom-section {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .app {
+    padding: 8px;
+  }
+}
+.error-message {
+  color: red;
+  background-color: #ffe5e5;
+  padding: 12px;
+  border-radius: 8px;
+  margin-block-end: 12px;
+  font-weight: bold;
+}

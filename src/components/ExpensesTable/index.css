@@ -1,0 +1,101 @@
+.expenses-table-section {
+  overflow: hidden;
+  border: 1px solid #cbbaff;
+  border-radius: 13px;
+  background: #fff;
+}
+
+.expenses-table-section h2 {
+  padding: 14px 20px;
+  color: #4710a5;
+  background: #faf9ff;
+  font-size: 23px;
+}
+
+.table-container {
+  inline-size: 100%;
+  overflow-x: auto;
+}
+
+.expenses-table-section table {
+  inline-size: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.expenses-table-section th {
+  padding: 14px 10px;
+  color: #39108d;
+  background: #e9e1ff;
+  font-size: 16px;
+}
+
+.expenses-table-section td {
+  padding: 12px 10px;
+  border-block-end: 1px solid #e4dcff;
+  font-size: 16px;
+}
+
+.category {
+  display: inline-block;
+  min-inline-size: 85px;
+  padding: 7px 13px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.food {
+  color: #a6380a;
+  background: #ffe2cf;
+}
+
+.travel {
+  color: #064bb4;
+  background: #d4eaff;
+}
+
+.shopping {
+  color: #126025;
+  background: #d8f6dc;
+}
+
+.others {
+  color: #6415bd;
+  background: #eedbff;
+}
+
+.actions {
+  white-space: nowrap;
+}
+
+.actions button {
+  margin-inline: 5px;
+  padding: 8px 12px;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background: #7135db;
+}
+
+.delete-btn {
+  background: #ff4141;
+}
+
+.edit-btn:hover {
+  background: #5420ad;
+}
+
+.delete-btn:hover {
+  background: #d92d2d;
+}
+
+@media (max-width: 600px) {
+  .expenses-table-section table {
+    min-inline-size: 550px;
+  }
+}
